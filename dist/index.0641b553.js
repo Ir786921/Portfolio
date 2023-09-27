@@ -27218,7 +27218,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 const NavBar = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-            class: "navbar navbar-expand-lg tw-bg-blue-950 tw-p-2",
+            class: "navbar navbar-expand-lg navbar-light tw-bg-blue-950 tw-p-2",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                     className: "navbar-brand ms-5 tw-rounded-lg text-white tw-text-xl tw-p-2",
@@ -27230,7 +27230,7 @@ const NavBar = ()=>{
                     columnNumber: 11
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    className: "navbar-toggler",
+                    className: "navbar-toggler tw-bg-blue-600",
                     type: "button",
                     "data-bs-toggle": "collapse",
                     "data-bs-target": "#navbarSupportedContent",
@@ -28135,7 +28135,7 @@ const About = ()=>{
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "col-sm-6 tw-flex tw-justify-center tw-pb-3",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "tw-bg-blue-800 tw-p-2 sm:tw-w-72 sm:tw-h-[310px] tw-w-44 tw-h-[198]  tw-rounded-lg tw-shadow-sm",
+                                className: "tw-bg-blue-800 tw-p-2 sm:tw-w-72 sm:tw-h-[310px] tw-w-[181px] tw-h-[190px] tw-rounded-lg tw-shadow-sm",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).img, {
                                     initial: {
                                         x: -300,
@@ -28153,7 +28153,7 @@ const About = ()=>{
                                     },
                                     src: (0, _imranJpegDefault.default),
                                     className: "tw-shadow-md sm:tw-w-72 sm:tw-h-72 tw-w-44 tw-h-44 tw-rounded-xl tw-object-contain tw-opacity-[0.4]",
-                                    alt: ""
+                                    alt: "user image"
                                 }, void 0, false, {
                                     fileName: "src/component/About.js",
                                     lineNumber: 27,
@@ -28170,10 +28170,10 @@ const About = ()=>{
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "col-6 mb-5",
+                            className: "col-sm-6 mb-5 tw-items-center",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    className: "text-start head1 m-sm-1 tw-text-slate-400",
+                                    className: "tw-text-center head1 m-sm-1 tw-text-slate-400 sm:tw-text-start",
                                     children: [
                                         "Get to know me!",
                                         " "
@@ -28188,51 +28188,60 @@ const About = ()=>{
                                     lineNumber: 54,
                                     columnNumber: 13
                                 }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "text-white tw-shadow-lg tw-rounded-lg tw-text-lg tw-tracking-wide tw-bg-blue-900 tw-p-4",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "d-flex justify-content-center tw-flex-col tw-items-center tw-m-auto",
                                     children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                            class: "fa-solid fa-arrow-right tw-text-violet-600"
-                                        }, void 0, false, {
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            className: "text-white tw-shadow-lg tw-rounded-lg tw-text-lg tw-tracking-wide tw-bg-blue-900 tw-p-4",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                    class: "fa-solid fa-arrow-right tw-text-violet-600"
+                                                }, void 0, false, {
+                                                    fileName: "src/component/About.js",
+                                                    lineNumber: 57,
+                                                    columnNumber: 15
+                                                }, undefined),
+                                                " \xa0 Currently I am Student and I am pursuing Bachelor of Technology from IILM College Of Engineering and Technology. I have proficiency in Html, CSS , Javascript,C++, SQL,I have experience with javascript library such as React and database such as MySQL."
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "src/component/About.js",
                                             lineNumber: 56,
-                                            columnNumber: 15
+                                            columnNumber: 12
                                         }, undefined),
-                                        " \xa0 Currently I am Student and I am pursuing Bachelor of Technology from IILM College Of Engineering and Technology. I have proficiency in Html, CSS , Javascript,C++, SQL,I have experience with javascript library such as React and database such as MySQL."
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/component/About.js",
+                                            lineNumber: 63,
+                                            columnNumber: 13
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            className: "text-white tw-shadow-xl tw-rounded-xl tw-text-lg tw-bg-blue-900 tw-p-4 tw-tracking-wide",
+                                            children: [
+                                                " ",
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                                    class: "fa-solid fa-arrow-right tw-text-violet-600"
+                                                }, void 0, false, {
+                                                    fileName: "src/component/About.js",
+                                                    lineNumber: 68,
+                                                    columnNumber: 15
+                                                }, undefined),
+                                                " ",
+                                                "\xa0I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.",
+                                                " "
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/component/About.js",
+                                            lineNumber: 66,
+                                            columnNumber: 13
+                                        }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/component/About.js",
                                     lineNumber: 55,
-                                    columnNumber: 13
+                                    columnNumber: 12
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "src/component/About.js",
-                                    lineNumber: 62,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "text-white tw-shadow-xl tw-rounded-xl tw-text-lg tw-bg-blue-900 tw-p-4 tw-tracking-wide",
-                                    children: [
-                                        " ",
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                            class: "fa-solid fa-arrow-right tw-text-violet-600"
-                                        }, void 0, false, {
-                                            fileName: "src/component/About.js",
-                                            lineNumber: 67,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        " ",
-                                        "\xa0I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.",
-                                        " "
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/component/About.js",
-                                    lineNumber: 65,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "src/component/About.js",
-                                    lineNumber: 72,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).a, {
@@ -28254,7 +28263,7 @@ const About = ()=>{
                                     children: "Contact"
                                 }, void 0, false, {
                                     fileName: "src/component/About.js",
-                                    lineNumber: 73,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, undefined)
                             ]
@@ -28265,7 +28274,7 @@ const About = ()=>{
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/component/About.js",
-                            lineNumber: 81,
+                            lineNumber: 83,
                             columnNumber: 11
                         }, undefined)
                     ]
@@ -40757,7 +40766,7 @@ const Internship = ()=>{
                             className: "row",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
-                                    className: "col-sm-5 tw-bg-blue-900 tw-rounded-xl tw-p-2 tw-pb-3",
+                                    className: "col-sm-5 tw-bg-blue-900 tw-rounded-xl tw-p-2 mb-5",
                                     initial: {
                                         y: 100,
                                         opacity: -4
@@ -41015,7 +41024,7 @@ const Internship = ()=>{
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
-                                    className: "offset-sm-2 col-sm-5 tw-bg-blue-900 tw-rounded-xl tw-p-2",
+                                    className: "offset-sm-2 col-sm-5 tw-bg-blue-900 tw-rounded-xl tw-p-2 mb-5",
                                     initial: {
                                         y: 100,
                                         opacity: -4

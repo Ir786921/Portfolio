@@ -13,7 +13,7 @@ const Internship = () => {
             <br />
             <br />
             <div className="row">
-              <motion.div className="col-sm-5 tw-bg-blue-900 tw-rounded-xl tw-p-2 tw-pb-3" initial={{y:100,opacity:-4}} whileInView={{y:0 , opacity:1}} transition={{ease:"easeIn", duration:0.6}} >
+              <motion.div className="col-sm-5 tw-bg-blue-900 tw-rounded-xl tw-p-2 mb-5" initial={{y:100,opacity:-4}} whileInView={{y:0 , opacity:1}} transition={{ease:"easeIn", duration:0.6}} >
                 <div className="mt-3">
                   <h4 className="text-center">Frontend Skills</h4>
                 </div>
@@ -70,7 +70,7 @@ const Internship = () => {
                 </div>
               </motion.div>
 
-              <motion.div className="offset-sm-2 col-sm-5 tw-bg-blue-900 tw-rounded-xl tw-p-2" initial={{y:100,opacity:-4}} whileInView={{y:0 , opacity:1}} transition={{ease:"easeIn", duration:0.6}}>
+              <motion.div className="offset-sm-2 col-sm-5 tw-bg-blue-900 tw-rounded-xl tw-p-2 mb-5" initial={{y:100,opacity:-4}} whileInView={{y:0 , opacity:1}} transition={{ease:"easeIn", duration:0.6}}>
                 <div className="mt-3">
                   <h4 className="text-center">Other Skill</h4>
                 </div>

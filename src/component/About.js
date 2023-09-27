@@ -23,7 +23,7 @@ const About = () => {
         <br />
         <div className="row">
           <div className="col-sm-6 tw-flex tw-justify-center tw-pb-3">
-            <div className="tw-bg-blue-800 tw-p-2 sm:tw-w-72 sm:tw-h-[310px] tw-w-44 tw-h-[198]  tw-rounded-lg tw-shadow-sm">
+            <div className="tw-bg-blue-800 tw-p-2 sm:tw-w-72 sm:tw-h-[310px] tw-w-[181px] tw-h-[190px] tw-rounded-lg tw-shadow-sm">
               <motion.img
                 initial = {{
                   x:-300,
@@ -43,16 +43,17 @@ const About = () => {
                   }}
                 src={image2}
                 className="tw-shadow-md sm:tw-w-72 sm:tw-h-72 tw-w-44 tw-h-44 tw-rounded-xl tw-object-contain tw-opacity-[0.4]"
-                alt=""
+                alt="user image"
               />
             </div>
           </div>
-          <div className="col-6 mb-5">
-            <h3 className="text-start head1 m-sm-1 tw-text-slate-400">
+          <div className="col-sm-6 mb-5 tw-items-center">
+            <h3 className="tw-text-center head1 m-sm-1 tw-text-slate-400 sm:tw-text-start">
               Get to know me!{" "}
             </h3>
             <br />
-            <p className="text-white tw-shadow-lg tw-rounded-lg tw-text-lg tw-tracking-wide tw-bg-blue-900 tw-p-4">
+           <div className="d-flex justify-content-center tw-flex-col tw-items-center tw-m-auto">
+           <p className="text-white tw-shadow-lg tw-rounded-lg tw-text-lg tw-tracking-wide tw-bg-blue-900 tw-p-4">
               <i class="fa-solid fa-arrow-right tw-text-violet-600"></i> &nbsp;
               Currently I am Student and I am pursuing Bachelor of Technology
               from IILM College Of Engineering and Technology. I have
@@ -69,6 +70,7 @@ const About = () => {
               and grow. If you have a good opportunity that matches my skills
               and experience then don't hesitate to contact me.{" "}
             </p>
+           </div>
             <br />
             <motion.a
              initial={{y:-50,opacity:0}} whileInView={{y:0 , opacity:1}} transition={{ease:"easeIn", delay:0.3 , stiffness:10}}

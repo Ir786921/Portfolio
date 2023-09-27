@@ -6,13 +6,13 @@ const NavBar = () => {
     <>
 
 
-<nav class="navbar navbar-expand-lg tw-bg-blue-950 tw-p-2">
+<nav class="navbar navbar-expand-lg navbar-light tw-bg-blue-950 tw-p-2">
           <a className="navbar-brand ms-5 tw-rounded-lg text-white tw-text-xl tw-p-2" href="#Home">
             Imran Raza
           </a>
 
           <button
-            className="navbar-toggler"
+            className="navbar-toggler tw-bg-blue-600"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"

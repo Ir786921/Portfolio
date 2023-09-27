@@ -96,8 +96,16 @@
   height: 100%;
 }
 
-.tw-h-\[198\] {
-  height: 198px;
+.tw-h-\[196px\] {
+  height: 196px;
+}
+
+.tw-h-\[185px\] {
+  height: 185px;
+}
+
+.tw-h-\[190px\] {
+  height: 190px;
 }
 
 .tw-w-1 {
@@ -122,6 +130,18 @@
 
 .tw-w-screen {
   width: 100vw;
+}
+
+.tw-w-\[196px\] {
+  width: 196px;
+}
+
+.tw-w-\[185px\] {
+  width: 185px;
+}
+
+.tw-w-\[181px\] {
+  width: 181px;
 }
 
 .tw-cursor-pointer {
@@ -548,6 +568,10 @@
 
   .sm\:tw-w-72 {
     width: 18rem;
+  }
+
+  .sm\:tw-text-start {
+    text-align: start;
   }
 
   .sm\:tw-text-3xl {
