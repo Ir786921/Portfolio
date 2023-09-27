@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="row-sm">
                 <div className="col-sm-12">
                   
-                  <div className='d-flex tw-justify-evenly tw-w-full tw-text-gray-400 tw-px-12 tw-py-6'>
+                  <div className='d-flex tw-justify-evenly tw-w-full tw-text-gray-400 tw-px-12 tw-gap-5 tw-py-6'>
                    <a href="#Home" className=' tw-no-underline tw-text-gray-400 tw-text-xl hover:tw-text-white'>Home</a> 
                    <a href="#About" className=' tw-no-underline tw-text-gray-400 tw-text-xl hover:tw-text-white'>About</a> 
 

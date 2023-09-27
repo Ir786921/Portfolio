@@ -21,13 +21,15 @@ const Home = () => {
               </h1>
               <br />
               
-            <p className="tw-font-light tw-text-2xl tw-text-slate-300 tw-overflow-visible tw-no-underline tw-slate-">
+          <div>
+          <p className="tw-font-light tw-text-2xl tw-text-slate-300 tw-overflow-visible tw-no-underline tw-slate-">
                 A Sharp mind and creative front-end developer having a keen eye
                 on design technologies, creating great user-friendly and
                 responsive web designs and layouts. I also have a strong grip on
                 the front-end fundamentals of CSS, JavaScript, and HTML ,react
                 and GitHub.Successfully completed many projects from scratch
               </p>
+          </div>
               <br />
               <div className="row">
                 <div className="col-5 mt-2">

@@ -22,8 +22,8 @@ const About = () => {
         </div>
         <br />
         <div className="row">
-          <div className="col-sm-6 tw-flex tw-justify-center">
-            <div className="tw-bg-blue-800 tw-p-2 sm:tw-w-72 sm:tw-h-[310px] tw-w-44 tw-h-44  tw-rounded-lg tw-shadow-sm">
+          <div className="col-sm-6 tw-flex tw-justify-center tw-pb-3">
+            <div className="tw-bg-blue-800 tw-p-2 sm:tw-w-72 sm:tw-h-[310px] tw-w-44 tw-h-[198]  tw-rounded-lg tw-shadow-sm">
               <motion.img
                 initial = {{
                   x:-300,
@@ -52,7 +52,7 @@ const About = () => {
               Get to know me!{" "}
             </h3>
             <br />
-            <p className="text-white tw-w-4/5 tw-shadow-lg tw-rounded-lg tw-text-lg tw-tracking-wide tw-bg-blue-900 tw-p-4">
+            <p className="text-white tw-shadow-lg tw-rounded-lg tw-text-lg tw-tracking-wide tw-bg-blue-900 tw-p-4">
               <i class="fa-solid fa-arrow-right tw-text-violet-600"></i> &nbsp;
               Currently I am Student and I am pursuing Bachelor of Technology
               from IILM College Of Engineering and Technology. I have
@@ -62,7 +62,7 @@ const About = () => {
             <br />
         
 
-            <p className="text-white tw-w-3/5 tw-shadow-xl tw-rounded-xl tw-text-lg tw-bg-blue-900 tw-p-4 tw-tracking-wide">
+            <p className="text-white tw-shadow-xl tw-rounded-xl tw-text-lg tw-bg-blue-900 tw-p-4 tw-tracking-wide">
               {" "}
               <i class="fa-solid fa-arrow-right tw-text-violet-600"></i>{" "}
               &nbsp;I'm open to Job opportunities where I can contribute, learn
@@ -71,17 +71,7 @@ const About = () => {
             </p>
             <br />
             <motion.a
-              initial={{
-                y: -100,
-                opacity: 1,
-              }}
-              whileInView={{
-                ys: 0,
-                opacity: 1,
-              }}
-              transition={{
-                delay: 0.5,
-              }}
+             initial={{y:-50,opacity:0}} whileInView={{y:0 , opacity:1}} transition={{ease:"easeIn", delay:0.3 , stiffness:10}}
               href="#Contact"
               className="tw-w-32 tw-px-3 tw-py-3 tw-border tw-border-blue-600 tw-rounded-lg tw-bg-blue-600 tw-text-slate-300 tw-no-underline hover:tw-text-white"
             >
