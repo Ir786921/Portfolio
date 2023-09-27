@@ -278,7 +278,7 @@ const Project = () => {
                   Github
                 </motion.a>
                 <motion.a
-                  href="https://mannumania.netlify.app/"
+                  href="https://bussinessdirectory.netlify.app/"
                   target="_blank"
                   initial={{ x: 30 }}
                   whileInView={{ x: 0 }}
